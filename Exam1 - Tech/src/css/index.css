@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* montiserrat */
+}
+body{
+    width: 100%;
+    /* max-width: 1920px; */
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #5E5D58;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: end;
+    padding-right: 380px;
+    
+}
+.logo{
+    width: 58px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: flex-start;
+    margin: auto 0;
+    position: absolute;
+    left: 380px;
+    top: 26px;
+    
+}
+.logo img{
+    margin: auto 0;
+}
+.header__name{
+    color: white;
+    font-size: 32px;
+}
+.navbar ul{
+    /* position: absolute; */
+    /* position: relative; */
+    /* right: 100px; */
+    /* width: 100%; */
+    right: 380px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    
+
+}
+.navbar ul li{
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-right: 21px;
+    margin: auto 0;
+}
+.start{
+    background-image: url(/src/img/bg-img.jpg);
+    width: 100%;
+    height: 1012px;
+    /* position: absolute; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#start__wordpress,#start__buy,.start h1{
+color: white;
+margin: 11px;
+scale: 1.7;
+}
+.start h1{
+    font-weight: 1000;
+}
+.start__explore, .start__purchase{
+    border-top: 10px solid white;
+    border-radius: 10px;
+    background-color: #18CFAB;
+    height: 68px;
+    width: 168px;
+    margin: 122px 26px 0 0;
+}
+.start__purchase{
+    background-color: #00CBF6;
+}
+.items{
+    margin: 10px 0 92px 0;
+    width: 100%;
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+}
+.items img{
+    width: 100%;
+}
